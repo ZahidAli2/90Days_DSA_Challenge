@@ -1,0 +1,30 @@
+When a function call its self this is recursion..
+
+when u have to stop use base case..BASE CONDITION  let suppose ---> 2^3,2^2 ,2^1,2^0 and we know that 2^0 is 1 this is over base condition
+factorial .......5! =5*4!
+and we know 1! is One and zero factorial is also 1.
+base case
+
+
+
+void print (int n){
+base case 
+if(n==0)
+return;
+ 
+cout<<n;
+
+print (n-1);
+}
+
+heap memory ----->dp
+stack ------>function
+static variable 
+code
+
+
+---------------------------
+base case must be reacted before Stack overflow
+there are three thing is Recursion...
+Mendaotory--->base case ,Recursive call.
+option--->inner Work 
