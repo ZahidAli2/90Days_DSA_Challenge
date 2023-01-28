@@ -1,0 +1,91 @@
+tle----->time limit exceed error 
+If n ≤ 12, the time complexity can be O(n!).
+If n ≤ 25, the time complexity can be O(2n).
+If n ≤ 100, the time complexity can be O(n4).
+If n ≤ 500, the time complexity can be O(n3).
+If n ≤ 104, the time complexity can be O(n2).
+If n ≤ 106, the time complexity can be O(n log n).
+If n ≤ 108, the time complexity can be O(n).
+If n > 108, the time complexity can be O(log n) or O(1).
+
+
+int sum =0---------> 1 iteration ---->Constant O(1)
+int x =sum;---------->1 iteration .....>constantO(1)
+1...it is the amount of time by taken by an alogrithem to run.--->Time Complexity
+
+--->we have to algorithm A and B..
+A is fast --->run of slow machine
+B is slow----->run of fast machine
+we can't let machine as a time complexity
+we have to give some prove...
+Big O Notation --> Theta 0 -----> Omega 
+ upper bound       average        Lower bound
+ 
+constant time ----->O(1)
+
+                      
+logarithemic time  O(Log(n))  binary search   <10^8
+
+Square root of N;√(n)
+
+linear time--------->O(n)                     < 10^8
+BigO(nLogN)            < 10^6
+Quadratic time n2 ---> two inner loop  <10^4
+cubic time (n3)----> 3 inner loop  <400
+n4 -------------->            <100
+O(2n)   [15.....18]
+O(N!)   [ 10....11]
+
+if loop are nested then multipay with each other let 
+for(i<N){
+for(i<N){
+function();
+}
+}
+Time complexity---->n2
+also inner function work on constant BigO(1)
+
+
+if loop are not nested then Add them with +;
+
+Modern machine work on 10^8 ki power 8;
+we solve question
+1<=arr.length<=1000
+1<=N<=10^3
+
+
+
+Space Complexity
+Memory....
+varibles are constant.. O(1)
+int arr[5] ={1,34,45,55,4}  -----> COnstatn O(1)..
+
+int n;
+cin>>n;
+vector<n> v(n);
+
+-----> space complexity O(N)
+Nested vector are multiply space Complexity.Not true
+Nested loop make  space COmplexity big O(N) sometimes its depend..
+for loop takes time...
+vector takes space.
+
+time space trade off ------------>  execution time   |    memery 
+if one is get low the other will increase..
+
+for example the bubble sort is slow time complexity but it required a  minium space
+merge sort is fast time complexity but required a lot of space
+--------------------------------------------------------------------
+badul bari sir
+Big(O) N
+
+if f(n) <= C*G(N)------------------>2n +3<=10n   ------n>=1
+f of N is Less than or greather than big o of G of N.
+---------------------------------------------------
+big O (Omega)
+f(N)>=C*G(N)     ---------------n>=no--------------2n+3>=log(N)
+----------------------------------------------------
+big O(0)
+
+c*g(n) <=f(N)<=c*g(n)
+
